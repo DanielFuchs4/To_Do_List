@@ -51,7 +51,7 @@
                         <Insets left="85.0" top="30.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="hotovo" mnemonicParsing="false" text="Hotovo">
+                  <Button fx:id="hotovo" mnemonicParsing="false" onAction="#onhotovoButtonClick" text="Hotovo">
                      <HBox.margin>
                         <Insets left="60.0" top="30.0" />
                      </HBox.margin>

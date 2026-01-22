@@ -25,7 +25,7 @@ public class HelloController {
 
     @FXML
     protected void onhotovoButtonClick() {
-        ukoly.
+        ukoly.getItems().remove(ukoly.getSelectionModel().getSelectedItem());
     }
 
 
